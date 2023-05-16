@@ -1,6 +1,6 @@
-# imcompressor
+# imgcompressor
 
-***this script converts jpeg or jpg images to png and from png to jpg***
+***this script compresses the images, causing them to resize.***
 
 ### Note
 
@@ -8,21 +8,21 @@
 
 - *Run script with python*
 
-        python3 -d [path directory with images] -n [new path directory]
+        python3 imgcompressor.py -d [path directory with images] -n [new path directory]
 
 ### or
 
 - *Give permission of execution*
 
-        chmod u+x imgconverter.py
+        chmod u+x imgcompressor.py
 
 - *Run script*
 
-        ./imgconverter.py -d [path directory with images] -n [new path directory]
+        ./imgcompressor.py -d [path directory with images] -n [new path directory]
 
 - *for more help use*
 
-        ./imgconverter.py --help
+        ./imgcompressor.py --help
 
 ### Install dependency
 
